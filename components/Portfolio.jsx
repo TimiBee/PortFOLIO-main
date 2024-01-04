@@ -83,7 +83,29 @@ export default function Portfolio() {
           </div>
 
           <section className="md:mt-24">
-
+          <PortfolioCard href='https://react-weather-api-app-main.vercel.app/'>
+            <ImageContainer src={restCountries}/>
+            <PortfolioDescription>
+                <p>
+                I developed a web app using Next.js that allows users to easily explore a database 
+                of countries displayed on their screens from an API.
+                <br/>
+                <br/>
+                I implemented a search feature that 
+                allows users to search for a specific country using the API.
+                I also incorporated Next.js features such as server-side rendering 
+                and the getStaticPaths feature to reduce page load time.
+                <br/>
+                <br/>
+                The tech stack I used for this project included 
+                <b>
+                {' '}Next.js, JavaScript, Framer Motion, React Bootstrap, and CSS.
+                </b>
+                {' '}I utilized these tools to create a smooth and responsive user interface for the web app.
+                </p>
+            </PortfolioDescription>
+           </PortfolioCard>
+,p,
            <PortfolioCard href='https://rest-country-apis.netlify.app/'>
             <ImageContainer src={restCountries}/>
             <PortfolioDescription>

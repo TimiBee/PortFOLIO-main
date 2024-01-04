@@ -17,7 +17,7 @@ export default function Home() {
         <title>Timi Busayo &mdash; Front-end Developer</title>
         <meta name="description" content="The portfolio of Timi B" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name='description' content='Akomolede Busayo Timileyin is a Software developer passionate about building websites 
+        <meta name='description' content='Akomolede Busayo Timileyin is a Front-end developer passionate about building websites 
         that conforms to standard'/>
       
       </Head>
@@ -56,7 +56,7 @@ export default function Home() {
          <p 
           className='text-primary text-shadow lg:w-56 tracking-widest'>
           <span className='uppercase text-sm text-secondary font-bold'>specialty</span> HTML, CSS, TypeScript, 
-          JavaScript, Reactjs/Next.js, Redux/Redux-toolkit, Tailwind and Bootstrap, Git, Github amongst others...
+          JavaScript, Reactjs/Next.js, Tailwind and Bootstrap, Git, Github amongst others...
          </p>
         </div>
         </motion.div>
